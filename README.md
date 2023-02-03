@@ -1,2 +1,2 @@
-# Bootstrap-Portfolio-Module-3-Challenge
-Bootstrap Portfolio Module 3 Challenge
+# Bootstrap-Portfolio
+Bootstrap Portfolio 
