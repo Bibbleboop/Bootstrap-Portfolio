@@ -1,9 +1,7 @@
 /*  Global Settings  */
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 background-color: #d2afff;
-  
-  
 }
 /* Container holding the image and the text */
 .container {
@@ -11,12 +9,20 @@ background-color: #d2afff;
   text-align: left;
   color: white;
 }
+.col-lg-6 {
+  display: flex;
+  width-max: 100%;
+}
 .container2 { 
   position: relative; 
   text-align: left;
   font-size: 40px;
   color: grey;
 }
+nav {
+  font-size: 50px;
+}
+
 /* Bottom left text */
 .bottom-left {
   position: absolute;
@@ -43,7 +49,10 @@ background-color: #d2afff;
   align-items: center; 
   justify-content: center;
 }
-
+.row {
+  width-max: 50%;
+  display: flex;
+}
 /*Nested Column Styles */
 .top {
   height: 50px; 
@@ -53,11 +62,11 @@ background-color: #d2afff;
   justify-content: center;
 }
 #categoryGrid {
-  margin: 0px 5%;
-  display: grid;
+  /* margin: 0px 5%; */
+  /* display: grid;
   grid-template-rows: 300px 300px 300px 300px;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas:
+  grid-template-areas: */
   "main main"
   "main main"
   "webApp2 webApp3"
@@ -83,12 +92,13 @@ background-color: #d2afff;
 body {
   margin: 0;
   padding: 40px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: poppins;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
   line-height: 25px;
 }
 
 .profile {
-  width: 80px;
+  max-width: 100%;
 } */
 
 .flexitem {
@@ -96,10 +106,16 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-
-
-h1,
+.footer {
+  padding-bottom; 40px;
+  /* border: 40px;
+  margin: 20px; */
+}
+h1 {
+  display: flex;
+  font-size: 2rem;
+  font: 100px;
+}
 h2,
 h3,
 h4,
@@ -111,7 +127,7 @@ h6 {
 
 .webApp1 {
   /* height: 50%; */
-  max-width: 100%;
+  max-width: 50%;
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -164,6 +180,58 @@ h6 {
 p {
   margin: 0;
 }
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+// RESPONSIVE CSS
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
 /* Media Query Mobile*/
 @media (max-width: 688px) {
 p {
@@ -171,18 +239,17 @@ p {
 } 
 }
 
-
 /* Media Query Tablet*/
 @media (min-width: 992px) {
-  p {
+p {
     font-size: 1.5rem;
     line-height: 1.5;
   } 
-  }
+  } 
 
 
   /* Media Query Laptop*/
-  @media (min-width: 1072px) {
+@media (min-width: 1072px) {
     p {
       font-size: 1.5rem;
       line-height: 1.5;
@@ -192,12 +259,12 @@ p {
 
 
 
-  /* Media Query Desktop*/
-  @media (min-width: 1312px) {
+  Media Query Desktop
+@media (min-width: 1312px) {
     p {
       font-size: 1.5rem;
       line-height: 1.5;
     } 
     }
-}
+
 .img-fluid. max-width: 100%; and height: 100px; 
