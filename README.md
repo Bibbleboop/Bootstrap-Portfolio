@@ -1,9 +1,12 @@
 # Bootstrap-Portfolio
 Bootstrap Portfolio 
+
+<img src="./images/readme ss.png">
+
 ## Table of Contents
 
 - [Description](#description)
-- [Collaboratorss](#collaborators)
+- [Collaborators](#collaborators)
 - [Contact](#contact)
 
 ## Description
