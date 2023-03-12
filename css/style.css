@@ -88,8 +88,7 @@ nav {
   /* align-items: center; */
   height: 33%;
   border: solid #8D99AE 1px 3px;
-
-
+}
 body {
   margin: red 20px;
   padding: 40px;
@@ -106,6 +105,7 @@ body {
   display: flex;
   font-size: 3rem;
   justify-content: center;
+  /* justify-content: flex-start; */
   align-items: center;
   border: solid #8D99AE 1px 3px;
 
@@ -116,6 +116,7 @@ body {
   align: right;
   /* display: flex; */
   justify-content: right;
+  /* justify-content: flex-end; */
   border: solid #8D99AE 1px 3px;
 }
 .flexitem {
