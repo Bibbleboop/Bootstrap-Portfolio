@@ -1,8 +1,8 @@
 # Bootstrap-Portfolio
 Bootstrap Portfolio 
-
-<img src="./images/readme ss.png">
 https://bibbleboop.github.io/Bootstrap-Portfolio/
+<img src="./images/readme ss.png">
+
 ## Table of Contents
 
 - [Description](#description)
